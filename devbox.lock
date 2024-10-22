@@ -1,0 +1,19 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "caddy": {
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#caddy",
+      "source": "nixpkg",
+      "systems": {
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "path": "/nix/store/1qbvqdqwwl5q5l5xc0nlvmrjqywz55x9-caddy-2.7.5",
+              "default": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}
