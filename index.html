@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+
+    <title>Client-side routing</title>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <template id="home">
+      <h1>Home</h1>
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </template>
+    <template id="about">
+      <h1>About</h1>
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </template>
+    <template id="login">
+      <h1>Login</h1>
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/">Home</a></li>
+      </ul>
+    </template>
+    <template id="notfound">
+      <h1>Not Found</h1>
+    </template>
+  </body>
+</html>
